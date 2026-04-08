@@ -1,0 +1,13 @@
+# Take input
+n= int(input(' enter n:'))
+
+# Logic
+for i in range(n):
+    for j in range(i+1):
+        print(chr(64+n-j),end = ' ')
+    print()
+
+for i in range(n-1):
+    for j in range(n-i-1):
+        print(chr(64+n-j),end= ' ')
+    print()
